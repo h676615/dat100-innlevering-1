@@ -16,7 +16,6 @@ public class O1 {
 			while((svar > 100) || (svar < 0)) {
 				svar = Integer.parseInt(JOptionPane.showInputDialog("Ugyldig verdi, må være heltall fra 0 til 100 \n Skriv inn poengsum nr" +(i+1)+ " på nytt: "));
 				poengArray[i] = svar;
-				break;
 			}
 			
 		}
@@ -38,10 +37,9 @@ public class O1 {
 		}
 		
 		for (int i = 0; i< 10; i++) {
-		System.out.println("Student nr"+(i+1)+" sin poengsum: " +  poengArray[i] + ", Karakter = " + karakter[i] );
+		System.out.println("Student nr"+(i+1)+", poengsum: " +  poengArray[i] + ", karakter = " + karakter[i] );
 		}
 		
-		//scanner.close();
 	}
 
 }
