@@ -42,7 +42,7 @@ public class O1 {
 			resultat.append("Student nr"+(i+1)+": Poengsum:"+poengArray[i]+", Karakter: "+karakter[i]+"\n");
 			//System.out.println("Student nr"+(i+1)+", poengsum: " +  poengArray[i] + ", karakter = " + karakter[i] );
 		}
-		JOptionPane.showMessageDialog(null, resultat);
+		JOptionPane.showMessageDialog(null, resultat.toString());
 	}
 
 }
