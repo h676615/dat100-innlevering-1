@@ -36,10 +36,13 @@ public class O1 {
 			}
 		}
 		
-		for (int i = 0; i< 10; i++) {
-		System.out.println("Student nr"+(i+1)+", poengsum: " +  poengArray[i] + ", karakter = " + karakter[i] );
-		}
+		StringBuilder resultat = new StringBuilder();
 		
+		for (int i = 0; i< 10; i++) {
+			resultat.append("Student nr"+(i+1)+": Poengsum:"+poengArray[i]+", Karakter: "+karakter[i]+"\n");
+			//System.out.println("Student nr"+(i+1)+", poengsum: " +  poengArray[i] + ", karakter = " + karakter[i] );
+		}
+		JOptionPane.showMessageDialog(null, resultat);
 	}
 
 }
